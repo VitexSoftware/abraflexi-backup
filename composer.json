@@ -1,0 +1,22 @@
+{
+    "name": "vitexosftware/abraflexi-backup",
+    "description": "Save AbraFlexy company backup to file",
+    "type": "project",
+    "require": {
+        "spojenet/flexibee": "dev-main"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "VitexSoftware\\AbraflexiBackup\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "CyberVitexus",
+            "email": "info@vitexsoftware.cz"
+        }
+    ],
+    "bin": ["src/abraflexi-backup.php"],
+    "minimum-stability": "dev"
+}
